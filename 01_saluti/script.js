@@ -2,12 +2,16 @@
 
 const userName = 'Mario';
 
-
 // Dichiara la funzione qui.
 
+function greet(name) {
+    return ("Ciao " + name);
+}
 
-// Invoca la funzione qui e stampa il risultato in console
+// Invoca la funzione qui e stampa il risultato in console.
 
-
+console.log(greet());
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+console.log(greet(userName));
