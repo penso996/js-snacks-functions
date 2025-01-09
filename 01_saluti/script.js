@@ -10,8 +10,6 @@ function greet(name) {
 
 // Invoca la funzione qui e stampa il risultato in console.
 
-console.log(greet());
+console.log(greet(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
-
-console.log(greet(userName));

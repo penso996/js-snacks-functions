@@ -2,11 +2,17 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
-
 // Dichiara la funzione qui.
 
+function extractFirstLetter(names) {
+    const initial = [];
+    for (let i = 0; i < names.length; i++) {
+        initial.push(names[i].slice(0, 1));
+    }
+    return initial;
+}
 
-// Invoca la funzione qui e stampa il risultato in console
+// Invoca la funzione qui e stampa il risultato in console.
 
 
 
