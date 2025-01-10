@@ -7,9 +7,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 function arrayFilter(array, letter) {
     const filteredNames = [];
     for (let i = 0; i < array.length; i++) {
-        let name = array[i];
-        if (name.charAt(0) === letter) {
-            filteredNames.push(name);
+        let string = array[i];
+        if (string.charAt(0) === letter) {
+            filteredNames.push(string);
         }
     }
     
